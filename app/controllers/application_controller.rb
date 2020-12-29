@@ -10,4 +10,16 @@ class ApplicationController < Sinatra::Base
 
   get '/' do
   end
+
+  get "/articles" do
+  end
+
+  get "/articles/new" do
+
+  end
+
+  get "/articles/:id" do
+  end
+
+  
 end
