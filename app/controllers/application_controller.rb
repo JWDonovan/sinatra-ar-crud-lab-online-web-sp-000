@@ -33,4 +33,8 @@ class ApplicationController < Sinatra::Base
   get "/articles/:id/edit" do
 
   end
+
+  patch "/articles/:id" do
+
+  end
 end
