@@ -29,4 +29,8 @@ class ApplicationController < Sinatra::Base
   post "/articles" do
 
   end
+
+  get "/articles/:id/edit" do
+
+  end
 end
