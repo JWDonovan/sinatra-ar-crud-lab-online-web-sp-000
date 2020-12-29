@@ -16,7 +16,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/articles/new" do
-
+    @article = Article.new
   end
 
   get "/articles/:id" do
